@@ -12,7 +12,7 @@ def loopEven(num):
     while (num > 0):
         if (num % 2 == 0):
             print(num)
-        else:# same as else (num % 2 == 1):
+        else:# same as else if (num % 2 == 1):
             print(str(num), "is odd")
         # the indention level here means that num always decreases by 1, no matter if/else
         num-=1
