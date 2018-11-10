@@ -17,7 +17,7 @@ def findwinner(playermove, computermove):
         return "Draw!"
     # Find the player move, which will show us what that move beats
     # If the computer move is in that list, players wins, otherwise player loses    
-    eif computermove in winmoves[playermove]:        
+    elif computermove in winmoves[playermove]:        
         return "Player wins!"
     
     return "Computer wins!"
